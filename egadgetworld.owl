@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cvasilak/ontologies/2016/2/egadgetworld"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cvasilak/ontologies/2016/2/egadgetworld">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An OWL ontology describing an eGadgetWorld</Literal>
+    </Annotation>
+    <Declaration>
+        <ObjectProperty IRI="#splugA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synapse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThermostatSPlug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoffeMachine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#min"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlarmRingPrepareBath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GadgetWorld"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tplug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlarmRingCoffeeMake"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#last_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThermostatTPlug"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#proximity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#device_edgeB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BathroomTool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlarmClockCoffeeMaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#material"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lamp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThermostatState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gadgetWorld"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#splugB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#max"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SPlug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#device_edgeA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proximity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MasterBedroom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AAClockSPlug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kitchen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoffeeMachine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AAClockState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TPlug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoffeeSPlug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#memory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoffeeState"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vendor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LivingRoom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MorningWakeUp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#shape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#synapse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#splug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AwesomeAlarmClockState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Device"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GadgetWorld"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plug"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proximity"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SPlug"/>
+        <Class IRI="#Plug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synapse"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TPlug"/>
+        <Class IRI="#Plug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User"/>
+        <Class IRI="#ContextEntity"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SPlug"/>
+        <NamedIndividual IRI="#AAClockSPlug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#AAClockState"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TPlug"/>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proximity"/>
+        <NamedIndividual IRI="#AlarmClockCoffeeMaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Synapse"/>
+        <NamedIndividual IRI="#AlarmRingCoffeeMake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Synapse"/>
+        <NamedIndividual IRI="#AlarmRingPrepareBath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Bathroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#BathroomTool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Chair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Clock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#CoffeeMachine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SPlug"/>
+        <NamedIndividual IRI="#CoffeeSPlug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TPlug"/>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#John"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Kitchen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type"/>
+        <NamedIndividual IRI="#Lamp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#LivingRoom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#MasterBedroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GadgetWorld"/>
+        <NamedIndividual IRI="#MorningWakeUp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SPlug"/>
+        <NamedIndividual IRI="#ThermostatSPlug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#ThermostatState"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TPlug"/>
+        <NamedIndividual IRI="#ThermostatTPlug"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#device_edgeA"/>
+        <NamedIndividual IRI="#AlarmClockCoffeeMaker"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#device_edgeB"/>
+        <NamedIndividual IRI="#AlarmClockCoffeeMaker"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#splugA"/>
+        <NamedIndividual IRI="#AlarmRingCoffeeMake"/>
+        <NamedIndividual IRI="#AAClockSPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#splugB"/>
+        <NamedIndividual IRI="#AlarmRingCoffeeMake"/>
+        <NamedIndividual IRI="#CoffeeSPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#device_edgeA"/>
+        <NamedIndividual IRI="#AlarmRingPrepareBath"/>
+        <NamedIndividual IRI="#AAClockSPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#device_edgeB"/>
+        <NamedIndividual IRI="#AlarmRingPrepareBath"/>
+        <NamedIndividual IRI="#ThermostatSPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#location"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+        <NamedIndividual IRI="#MasterBedroom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#splug"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+        <NamedIndividual IRI="#AAClockSPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#state"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+        <NamedIndividual IRI="#AAClockState"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tplug"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+        <NamedIndividual IRI="#Clock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#location"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+        <NamedIndividual IRI="#Kitchen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#splug"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+        <NamedIndividual IRI="#CoffeeSPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#state"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tplug"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#type"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+        <NamedIndividual IRI="#CoffeeMachine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#gadgetWorld"/>
+        <NamedIndividual IRI="#John"/>
+        <NamedIndividual IRI="#MorningWakeUp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#synapse"/>
+        <NamedIndividual IRI="#MorningWakeUp"/>
+        <NamedIndividual IRI="#AlarmRingCoffeeMake"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#synapse"/>
+        <NamedIndividual IRI="#MorningWakeUp"/>
+        <NamedIndividual IRI="#AlarmRingPrepareBath"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#AAClockSPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#AAClockState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clock state</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#max"/>
+        <NamedIndividual IRI="#AAClockState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#min"/>
+        <NamedIndividual IRI="#AAClockState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#AAClockState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value_step"/>
+        <NamedIndividual IRI="#AAClockState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">aluminum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memory"/>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shape"/>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Box</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendor"/>
+        <NamedIndividual IRI="#AAClockTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#proximity"/>
+        <NamedIndividual IRI="#AlarmClockCoffeeMaker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#AwesomeAlarmClock"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AwesomeAlarmClock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#AwesomeAlarmClockState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Bathroom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bathroom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#BathroomTool"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BathroomTool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Chair"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chair</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Clock"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#CoffeeMachine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CoffeeMachine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#CoffeeSPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">prepare_cofee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Coffee State</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#max"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#min"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value_step"/>
+        <NamedIndividual IRI="#CoffeeState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">aluminum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memory"/>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shape"/>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Box</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendor"/>
+        <NamedIndividual IRI="#CoffeeTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Philips</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FrenchCoffeeMachine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FrenchCoffeeMachine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#first_name"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">John</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#last_name"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Smith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Kitchen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kitchen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Lamp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lamp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LivingRoom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LivingRoom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MasterBedroom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MasterBedroom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#ThermostatSPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">prepare_bath</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ThermostatState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Thermostat state</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#max"/>
+        <NamedIndividual IRI="#ThermostatState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#min"/>
+        <NamedIndividual IRI="#ThermostatState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#ThermostatState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value_step"/>
+        <NamedIndividual IRI="#ThermostatState"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#material"/>
+        <NamedIndividual IRI="#ThermostatTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">neutral</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memory"/>
+        <NamedIndividual IRI="#ThermostatTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shape"/>
+        <NamedIndividual IRI="#ThermostatTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">box</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendor"/>
+        <NamedIndividual IRI="#ThermostatTPlug"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nest</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#device_edgeA"/>
+        <Class IRI="#Proximity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#device_edgeB"/>
+        <Class IRI="#Proximity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gadgetWorld"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#location"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#splug"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#splugA"/>
+        <Class IRI="#Synapse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#splugB"/>
+        <Class IRI="#Synapse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#state"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#synapse"/>
+        <Class IRI="#GadgetWorld"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tplug"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#device_edgeA"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#device_edgeB"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gadgetWorld"/>
+        <Class IRI="#GadgetWorld"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#location"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#splug"/>
+        <Class IRI="#SPlug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#splugA"/>
+        <Class IRI="#SPlug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#splugB"/>
+        <Class IRI="#SPlug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#state"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#synapse"/>
+        <Class IRI="#Synapse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tplug"/>
+        <Class IRI="#TPlug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#value"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#first_name"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#last_name"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#material"/>
+        <Class IRI="#TPlug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#max"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#memory"/>
+        <Class IRI="#TPlug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#min"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#SPlug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#proximity"/>
+        <Class IRI="#Proximity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#shape"/>
+        <Class IRI="#TPlug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value_step"/>
+        <Class IRI="#State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vendor"/>
+        <Class IRI="#TPlug"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#first_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#last_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#material"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#max"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#memory"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#min"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#proximity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#shape"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value_step"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vendor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
